@@ -1,6 +1,5 @@
 import numpy as np
 from pennylane import numpy as pnp
-from pennylane import qml
 import pennylane as qml
 from data_preprocessor import DataPreprocessor
 from quantum_circuits import QuantumCircuits
