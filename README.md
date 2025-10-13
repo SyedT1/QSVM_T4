@@ -8,24 +8,16 @@
   $$R_{y}(x_1) \otimes R_{y}(x_2)$$
 
 - **Layer 1:**
-  $$
-  \begin{aligned}
-  & R_{y}(x_1) \otimes R_{y}(x_2) \\
-  & \mathrm{CNOT}_{0\to1} \\
-  & R_{z}(x_1) \otimes R_{z}(x_2) \\
-  & \mathrm{CNOT}_{1\to0}
-  \end{aligned}
-  $$
+  - $$R_{y}(x_1) \otimes R_{y}(x_2)$$
+  - $$\mathrm{CNOT}_{0\to1}$$
+  - $$R_{z}(x_1) \otimes R_{z}(x_2)$$
+  - $$\mathrm{CNOT}_{1\to0}$$
 
 - **Layer 2:**
-  $$
-  \begin{aligned}
-  & R_{y}(x_1) \otimes R_{y}(x_2) \\
-  & \mathrm{CNOT}_{0\to1} \\
-  & R_{z}(x_1) \otimes R_{z}(x_2) \\
-  & \mathrm{CNOT}_{1\to0}
-  \end{aligned}
-  $$
+  - $$R_{y}(x_1) \otimes R_{y}(x_2)$$
+  - $$\mathrm{CNOT}_{0\to1}$$
+  - $$R_{z}(x_1) \otimes R_{z}(x_2)$$
+  - $$\mathrm{CNOT}_{1\to0}$$
 
 ### Quantum Feature State:
 $$|\phi_\text{AEFM}(x)\rangle = U_\text{AEFM}(x)|00\rangle$$
